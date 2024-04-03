@@ -13,4 +13,8 @@ print("\"age :"+age+"\"")
 print("\"country :"+country+"\"")
 #Assignment 4
 print("Hello, My Name Is "+name+" And Iam "+ age+" Years Old and I Live in "+ country+".")
+##Assignment 5
+print(type(name))
+print(type(age))
+print(type(country))
 
