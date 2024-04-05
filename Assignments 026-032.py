@@ -25,7 +25,17 @@ set_one={1,2,3}
 set_two={1,2,3,4,5,6}
 print(set_one.issubset(set_two))
 #Assignment 5
+my_dict={"lang1":{"name":"HTML",
+                  "progress":"90%"}
+         ,"lang2":{"name":"CSS",
+                   "progress":"80%"}
+         ,"lang3":{"name":"Python",
+                  "progress":"30%"}}
+print("{} progress is {}".format(my_dict["lang1"]["name"],my_dict["lang1"]["progress"]))
+print("{} progress is {}".format(my_dict["lang2"]["name"],my_dict["lang2"]["progress"]))
+print("{} progress is {}".format(my_dict["lang3"]["name"],my_dict["lang3"]["progress"]))
+my_dict.update({"lang4":{"name":"AI"
+                         ,"progress":"20%"}})
+print("{} progress is {}".format(my_dict["lang4"]["name"],my_dict["lang4"]["progress"]))
 
-
-}
 
