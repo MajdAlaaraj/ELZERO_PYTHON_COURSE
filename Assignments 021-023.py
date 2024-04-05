@@ -43,6 +43,12 @@ friends.sort(reverse=True)
 print(friends)
 #Assignment 9
 friends=['Ahmad', 'Sayed', 'Sameh', 'Eman', 'Ramy', 'Shady']
+print(len(friends))
+#Assignment 10
+technologies=["HTML","CSS","JAVA SCRIPT",["Django","Flask","web"]]
+print(technologies[-1][0])
+print(technologies[-1][-1])
+
 
 
 
