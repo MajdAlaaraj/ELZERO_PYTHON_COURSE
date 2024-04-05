@@ -15,3 +15,10 @@ letters=("A","B","C")
 nums_and_letters=nums+letters
 print("nums_and_letters_one = {}".format(nums_and_letters))
 print("{} Elements".format(len(nums_and_letters)))
+#Assignment 4
+my_tuple=(1,2,3,4)
+a,b,_,c=my_tuple
+print(a)
+print(b)
+print(c)
+
