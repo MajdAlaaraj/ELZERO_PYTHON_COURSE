@@ -1,19 +1,19 @@
 #______________________________________________
-#(1) calculate your full age
+#(1) calculate your age
 # _____________________________________________
-# age=int(input("What\'s Your Age ?").strip())
-# time_unit=input("please Enter Time Unit(Months/M _Weeks/W _Days/D) :").strip().capitalize()
-# months=age*12
-# weeks=months*4
-# days=age*365
-# if time_unit == "Month" or time_unit == "M" :
-#     print(f"Your Age In Months Is {months}")
-# elif time_unit == "Weeks" or time_unit == "W" :
-#     print(f"Your Age In Weeks Is {weeks}")
-# elif time_unit == "Days" or time_unit == "D" :
-#     print(f"Your Age In Days Is {days}") 
-# else :
-#     print("Your Input Is Wrong, Please Try Again. ")       
+age=int(input("What\'s Your Age ?").strip())
+time_unit=input("please Enter Time Unit(Months/M _Weeks/W _Days/D) :").strip().capitalize()
+months=age*12
+weeks=months*4
+days=age*365
+if time_unit == "Month" or time_unit == "M" :
+    print(f"Your Age In Months Is {months}")
+elif time_unit == "Weeks" or time_unit == "W" :
+    print(f"Your Age In Weeks Is {weeks}")
+elif time_unit == "Days" or time_unit == "D" :
+    print(f"Your Age In Days Is {days}") 
+else :
+    print("Your Input Is Wrong, Please Try Again. ")       
 #________________________________________________
 #(2) Practical Membership Control
 #________________________________________________
