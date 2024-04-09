@@ -32,8 +32,7 @@ if name in admins :
 #Delete Option        
     elif option == "Delete" :
             admins.remove(name)
-    else :
-         print("Sorry , You Typed Wrong Option Try Again.")
+    else : print("Sorry , You Typed Wrong Option Try Again.")
 
 
 else : 
@@ -42,8 +41,25 @@ else :
     if status == "Yes" or status == "Y" :
         admins.append(name)
         print("You Are An Admin Now.")
-    else :
-         print("Thank You.")    
+    else : print("Thank You.") 
+
+#________________________________________________
+#(3) Simple Bookmark Manager 
+#________________________________________________   
+# Empty List To Fill It 
+myWebSites = []
+# Maximum Web Sites Allowed
+maximum = 5
+# Input The New Website
+while maximum > 0 :
+    web = input("Web Site Name Without https://")
+    # Add The Website To The List
+    myWebSites.append(f"https://{web.strip().lower()}")
+    # Decrease 1 From The Allowed Websites
+    maximum-=1
+    print(f"Website Added {maximum} Places Left")
+    
+
 
 
 
