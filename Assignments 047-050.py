@@ -10,7 +10,7 @@ while num > 0 :
     count+=1
 print(f"{count} Number Printed Successfully")   
 
-#Assignment 2
+# Assignment 2
 friends = ["Mohamed", "Shady", "ahmed", "eman", "Sherif"]
 count = 0 
 index = 0
@@ -23,10 +23,10 @@ while index < len(friends):
 print(f"Friends Printed And Ignored Names Count Is {count}")            
 
 #Assignment 3 
-# skills = ["HTML", "CSS", "JavaScript", "PHP", "Python"]
+skills = ["HTML", "CSS", "JavaScript", "PHP", "Python"]
 
-# while skills :
-#     print(skills[])
+while skills :
+    print(skills.pop())
 
 
 
