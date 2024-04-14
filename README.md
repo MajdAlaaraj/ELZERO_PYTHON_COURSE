@@ -1,2 +1,2 @@
-# ALZERO_PYTHON_COURSE
-this is some assignments from ALZERO course >
+# ELZERO_PYTHON_COURSE
+حلول التكليفات الخاصة بدورة بالبايثون الخاصة بقناة أسامة الزيرو.
